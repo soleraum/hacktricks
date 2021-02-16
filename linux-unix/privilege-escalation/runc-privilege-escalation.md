@@ -34,7 +34,3 @@ mkdir rootfs
 runc run demo
 ```
 
-
-
-
-

@@ -1,7 +1,7 @@
 # Active Directory Methodology
 
-If you want to **know** about my **latest modifications**/**additions** or you have **any suggestion for HackTricks or PEASS**, **join the** [**💬**](https://emojipedia.org/speech-balloon/) ****[**PEASS & HackTricks telegram group here**](https://t.me/peass), or **follow me on Twitter** [🐦](https://emojipedia.org/bird/)[**@carlospolopm**](https://twitter.com/carlospolopm)**.**  
-If you want to **share some tricks with the community** you can also submit **pull requests** to **\*\*\[**[https://github.com/carlospolop/hacktricks\*\*\]\(https://github.com/carlospolop/hacktricks](https://github.com/carlospolop/hacktricks**]%28https://github.com/carlospolop/hacktricks)\) **\*\*that will be reflected in this book.  
+If you want to **know** about my **latest modifications**/**additions** or you have **any suggestion for HackTricks or PEASS**, **join the** [**💬**](https://emojipedia.org/speech-balloon/) **\*\*\[**PEASS & HackTricks telegram group here**\]\(**[https://t.me/peass](https://t.me/peass)**\), or** follow me on Twitter ****[**🐦**](https://emojipedia.org/bird/)**\[**@carlospolopm**\]\(**[https://twitter.com/carlospolopm](https://twitter.com/carlospolopm)**\)**.  
+**If you want to** share some tricks with the community **you can also submit** pull requests **to** \*\*\[**\[**[https://github.com/carlospolop/hacktricks\*\*\]\(https://github.com/carlospolop/hacktricks\]\(https://github.com/carlospolop/hacktricks](https://github.com/carlospolop/hacktricks**]%28https://github.com/carlospolop/hacktricks]%28https://github.com/carlospolop/hacktricks)\]%28[https://github.com/carlospolop/hacktricks\)\](https://github.com/carlospolop/hacktricks%29\)\) **\*\*that will be reflected in this book.  
 Don't forget to** give ⭐ on the github\*\* to motivate me to continue developing this book.
 
 ## Basic overview
@@ -43,7 +43,7 @@ You can take a lot to [https://wadcoms.github.io/](https://wadcoms.github.io/) t
 
 If you just have access to an AD environment but you don't have any credentials/sessions you could:
 
-* **Pentest the network:** Scan the network, find machines and open ports and try to **exploit vulnerabilities** or **extract credentials** from them \(for example, **\*\*\[**printers could be very interesting targets**\]\(ad-information-in-printers.md\)\). Take a look to the General \*\***[**Pentesting Methodology**](../../pentesting-methodology.md) _\*\*_to find more information about how to do this.
+* **Pentest the network:** Scan the network, find machines and open ports and try to **exploit vulnerabilities** or **extract credentials** from them \(for example, **\*\*\[**printers could be very interesting targets**\]\(ad-information-in-printers.md\)\). Take a look to the General \*\***[**Pentesting Methodology**](../../pentesting-methodology.md) \_\*\*\_to find more information about how to do this.
 * **Check for null and Guest access on smb services** \(this won't work on modern Windows versions\):
   * `enum4linux -a -u "" -p "" <DC IP> && enum4linux -a -u "guest" -p "" <DC IP>`
   * `smbmap -u "" -p "" -P 445 -H <DC IP> && smbmap -u "guest" -p "" -P 445 -H <DC IP>`

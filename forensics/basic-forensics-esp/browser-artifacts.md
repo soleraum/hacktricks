@@ -24,9 +24,9 @@ Let us take a look at the most common artefacts stored by browsers.
 
 ## Firefox
 
-Firefox use to create the profiles folder in ~/_**.mozilla/firefox/**_ \(Linux\) ****or in _**C:\Users\XXX\AppData\Roaming\Mozilla\Firefox\Profiles\**_ \(Windows\)_**.**_  
-Inside this folder, the file _**profiles.ini**_ should appear with the name\(s\) of the used profile\(s\).  
-Each profile has a "**Path**" variable with the name of the folder where it's data is going to be stored. The folder should be **present in the same directory where the** _**profiles.ini**_ **exist**. If it isn't, then, probably it was deleted.
+Firefox use to create the profiles folder in ~/_**.mozilla/firefox/**_ \(Linux\) **\*\*or in \_**C:\Users\XXX\AppData\Roaming\Mozilla\Firefox\Profiles\* _\(Windows\)**.**  
+Inside this folder, the file **profiles.ini** should appear with the name\(s\) of the used profile\(s\).  
+Each profile has a "**Path**" variable with the name of the folder where it's data is going to be stored. The folder should be **present in the same directory where the** **profiles.ini**\_ \*exist_. If it isn't, then, probably it was deleted.
 
 Inside the folder **of each profile** \(_~/.mozilla/firefox/&lt;ProfileName&gt;/_\) path you should be able to find the following interesting files:
 
@@ -71,7 +71,7 @@ Most of the information will be saved inside the _**Default/**_ or _**ChromeDefa
 * _**History**_ : URLs, downloads and even searched keywords
 * _**Cookies**_ : Cookies
 * _**Cache**_ : Cache
-* _**Bookmarks**_ : **** Bookmarks 
+* _**Bookmarks**_ : _\*\*_ Bookmarks 
 * _**Web Data**_ : Form History
 * _**Favicons**_ : Favicons
 * _**Login Data**_ : Login information \(usernames, passwords...\)

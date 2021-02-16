@@ -12,6 +12,12 @@
 * [Brute Force - CheatSheet](brute-force.md)
 * [Search Exploits](search-exploits.md)
 
+## Information Gathering
+
+* [DNS Info Gathering](information-gathering/dns-info-gathering.md)
+* [Email Harvesting](information-gathering/email-harvesting.md)
+* [Host/Service Discovery](information-gathering/host-service-discovery.md)
+
 ## Shells
 
 * [Shells \(Linux, Windows, MSFVenom\)](shells/shells/README.md)

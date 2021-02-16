@@ -2,8 +2,6 @@
 
 Start **searching** for **malware** inside the pcap. Use the **tools** mentioned in [**Malware Analysis**](malware-analysis.md).
 
-## 
-
 ## [Volatility](volatility-examples.md)
 
 The premiere open-source framework for memory dump analysis is [Volatility](volatility-examples.md). Volatility is a Python script for parsing memory dumps that were gathered with an external tool \(or a VMware memory image gathered by pausing the VM\). So, given the memory dump file and the relevant "profile" \(the OS from which the dump was gathered\), Volatility can start identifying the structures in the data: running processes, passwords, etc. It is also extensible using plugins for extracting various types of artifact.  
@@ -28,8 +26,4 @@ You can also load the exception and see the decompiled instructions
 Anyway Visual Studio isn't the best tool to perform a analysis in depth of the dump.
 
 You should **open** it using **IDA** or **Radare** to inspection it in **depth**.
-
-
-
-
 

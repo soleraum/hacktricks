@@ -20,7 +20,7 @@ Compresses and decompresses a given buffer of data.
 
 #### CryptAcquireContext
 
- The **CryptAcquireContext** function is used to acquire a handle to a particular key container within a particular cryptographic service provider \(CSP\). **This returned handle is used in calls to CryptoAPI** functions that use the selected CSP.
+The **CryptAcquireContext** function is used to acquire a handle to a particular key container within a particular cryptographic service provider \(CSP\). **This returned handle is used in calls to CryptoAPI** functions that use the selected CSP.
 
 #### CryptCreateHash
 
@@ -28,7 +28,6 @@ Initiates the hashing of a stream of data. If this function is used, you can fin
 
 ![](../../.gitbook/assets/image%20%28227%29.png)
 
-  
 Check here the table of possible algorithms and their assigned values: [https://docs.microsoft.com/en-us/windows/win32/seccrypto/alg-id](https://docs.microsoft.com/en-us/windows/win32/seccrypto/alg-id)
 
 ### Code constants
@@ -158,13 +157,9 @@ Check **lookup table constants**:
 
 ![](../../.gitbook/assets/image%20%28335%29.png)
 
-
-
 A CRC hash algorithm looks like:
 
 ![](../../.gitbook/assets/image%20%28252%29.png)
-
-
 
 ## APLib \(Compression\)
 
@@ -177,7 +172,7 @@ A CRC hash algorithm looks like:
 
 The graph is quiet large:
 
-![](../../.gitbook/assets/image%20%28207%29%20%282%29%20%281%29.png)
+![](../../.gitbook/assets/image%20%28207%29%20%282%29.png)
 
 Check **3 comparisons to recognise it**:
 
